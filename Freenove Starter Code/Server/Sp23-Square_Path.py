@@ -1,5 +1,5 @@
 import time
-from motor import Motor
+from Motor import Motor
 
 def square():
     PWM = Motor()
@@ -22,4 +22,4 @@ def square():
     PWM.setMotorModel(0,0,0,0)  # Stop motors after the square is complete
     
 if __name__ == '__main__':
-    square_movement()
+    square()
