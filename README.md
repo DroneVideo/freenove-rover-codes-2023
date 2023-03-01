@@ -10,3 +10,5 @@ Finally, we stop the rover by setting the duty cycle of all motors to 0.
 
 ### Branches
 Branch `create-1st-custom-path-test` is a test branch so we can edit test code without worrying about breaking anything and group changes together for documentation
+
+To access the new branch make sure repo is up to date with `git pull` and then type `git checkout create-1st-custom-path-test`
