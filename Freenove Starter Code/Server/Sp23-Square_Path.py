@@ -6,7 +6,9 @@ def square_movement():
     PWM.setMotorModel(0,0,0,0)  # Stop motors initially
 
     #Testing Turn
-    PWM.setMotorModel(0, 0, 1000, 1000)
+    PWM.setMotorModel(0, 0, 750, 750)
+    time.sleep(3)
+    PWM.setMotorModel(0, 0, 0, 0)
 
     '''# Move the robot in a square
     for i in range(4):
