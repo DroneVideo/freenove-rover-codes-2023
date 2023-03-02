@@ -1,5 +1,5 @@
 import time
-from motor import Motor
+from Motor import Motor
 
 def square_movement():
     PWM = Motor()
@@ -13,7 +13,7 @@ def square_movement():
 
         # Turn left
         PWM.setMotorModel(0, 0, 500, 500)
-        time.sleep(2))
+        time.sleep(2)
 
         # Stop
         PWM.setMotorModel(0, 0, 0, 0)
