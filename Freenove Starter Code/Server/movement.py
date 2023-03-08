@@ -7,7 +7,7 @@ def leftturn():
 
     #Testing Turn
     PWM.setMotorModel(0, 0, -1000, -1000)
-    time.sleep(2.1)
+    time.sleep(2)
     PWM.setMotorModel(0, 0, 0, 0)
     time.sleep(1)
 
