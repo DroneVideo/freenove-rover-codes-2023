@@ -1,16 +1,20 @@
 import time
-from Motor import Motor
+from Motor import *
+from movement import *
 
 def square_movement():
     PWM = Motor()
     PWM.setMotorModel(0,0,0,0)  # Stop motors initially
 
-    #Testing Turn
+    rightpointturn()
+    leftpointturn()
+
+    '''#Testing Turn
     PWM.setMotorModel(0, 0, 750, 750)
     time.sleep(3)
     PWM.setMotorModel(0, 0, 0, 0)
 
-    '''# Move the robot in a square
+    # Move the robot in a square
     for i in range(4):
         # Move forward
         PWM.setMotorModel(-1000,-1000,-1000,-1000)
