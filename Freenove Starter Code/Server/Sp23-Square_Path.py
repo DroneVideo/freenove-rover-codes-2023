@@ -12,6 +12,10 @@ def square_movement():
         PWM.setMotorModel(-1000,-1000,-1000,-1000)
         time.sleep(1)
 
+        #Stop before turning
+        PWM.setMotorModel(0, 0, 0, 0)
+        time.sleep(1)
+
         # Turn left
         leftpointturn()
 
