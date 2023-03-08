@@ -6,7 +6,7 @@ def leftturn():
     PWM.setMotorModel(0,0,0,0)  # Stop motors initially
 
     #Testing Turn
-    PWM.setMotorModel(0, 0, 750, 750)
+    PWM.setMotorModel(0, 0, -1000, -1000)
     time.sleep(3)
     PWM.setMotorModel(0, 0, 0, 0)
 
