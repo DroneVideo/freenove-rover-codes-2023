@@ -17,7 +17,7 @@ def rightpointturn():
 
     #Testing Turn
     PWM.setMotorModel(-1000, -1000, 0, 0)
-    time.sleep(2)
+    time.sleep(2.5)
     PWM.setMotorModel(0, 0, 0, 0)
     time.sleep(1)
 
