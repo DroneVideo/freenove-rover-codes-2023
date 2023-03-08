@@ -1,18 +1,10 @@
 import time
 from Motor import *
-from movement import *
+from movement import * #to import turns
 
 def square_movement():
     PWM = Motor()
     PWM.setMotorModel(0,0,0,0)  # Stop motors initially
-
-    rightpointturn()
-    leftpointturn()
-
-    '''#Testing Turn
-    PWM.setMotorModel(0, 0, 750, 750)
-    time.sleep(3)
-    PWM.setMotorModel(0, 0, 0, 0)
 
     # Move the robot in a square
     for i in range(4):
@@ -21,14 +13,13 @@ def square_movement():
         time.sleep(2)
 
         # Turn left
-        PWM.setMotorModel(0, 0, 500, 500)
-        time.sleep(2)
+        leftpointturn()
 
         # Stop
         PWM.setMotorModel(0, 0, 0, 0)
         time.sleep(5)
         
-    PWM.setMotorModel(0,0,0,0)  # Stop motors after the square is complete'''
+    PWM.setMotorModel(0,0,0,0)  # Stop motors after the square is complete
     
 if __name__ == '__main__':
     square_movement()
