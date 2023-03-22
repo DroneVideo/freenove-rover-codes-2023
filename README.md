@@ -2,8 +2,10 @@
 
 #### Movement.py ####
 In this script, we simply define simple movements to be called in other codes
-Currently, we have left and right point turns that are called in square.py. They turn 90 degrees at the speed of 1000
-Next step would be adding functions for stopping and left and right pivot turns. 
+Functions for Left and Right Point Turns - 90 degrees (speed 1000)
+Functions for Left and Right Pivot Turns - 90 degrees (speed 1000)
+Function for stop - takes input for stop duration
+
 Next, we will modify these turn functions to take degrees as an input and modify our time to turn as required.
 
 #### Square.py #####

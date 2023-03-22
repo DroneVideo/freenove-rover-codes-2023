@@ -46,7 +46,4 @@ def leftpivotturn():
 
 if __name__ == '__main__':
     stoprover(1)
-    rightpivotturn()
-    stoprover(2)
-    leftpivotturn()
-    stoprover(5)
+
