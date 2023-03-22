@@ -35,5 +35,5 @@ def rightpivotturn():
 
 if __name__ == '__main__':
     stoprover(1)
-    rightpivotturn
+    rightpivotturn()
     stoprover(5)
