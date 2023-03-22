@@ -29,7 +29,7 @@ def rightpivotturn():
     PWM.setMotorModel(0, 0, 0, 0) # Stops motors initially
 
     PWM.setMotorModel(-1000, -1000, 1000, 1000)
-    time.sleep(2)
+    time.sleep(1.5)
 
     PWM.setMotorModel(0, 0, 0, 0)
     time.sleep(1)
