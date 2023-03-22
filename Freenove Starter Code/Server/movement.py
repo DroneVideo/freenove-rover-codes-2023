@@ -24,6 +24,15 @@ def rightpointturn():
     PWM.setMotorModel(0, 0, 0, 0)
     time.sleep(1)
 
+def rightpivotturn():
+    PWM = Motor()
+    PWM.setMotorModel(0, 0, 0, 0) # Stops motors initially
+
+    PWM.setMotorModel(-1000, -1000, 1000, 1000)
+    time.sleep(1)
+    
+    self.stoprover(1)
+
 if __name__ == '__main__':
     stoprover(stoptime)
     leftpointturn()
