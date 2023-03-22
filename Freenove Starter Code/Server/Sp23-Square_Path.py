@@ -13,15 +13,13 @@ def square_movement():
         time.sleep(1)
 
         #Stop before turning
-        PWM.setMotorModel(0, 0, 0, 0)
-        time.sleep(1)
+        stoprover(1)
 
         # Turn left
         leftpointturn()
 
         # Stop
-        PWM.setMotorModel(0, 0, 0, 0)
-        time.sleep(1)
+        stoprover(1)
         
     PWM.setMotorModel(0,0,0,0)  # Stop motors after the square is complete
     
