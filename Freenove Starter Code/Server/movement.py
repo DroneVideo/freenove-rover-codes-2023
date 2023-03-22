@@ -30,10 +30,10 @@ def rightpivotturn():
 
     PWM.setMotorModel(-1000, -1000, 1000, 1000)
     time.sleep(1)
-    
+
     self.stoprover(1)
 
 if __name__ == '__main__':
-    stoprover(stoptime)
-    leftpointturn()
-    rightpointturn()
+    stoprover(1)
+    rightpivotturn
+    stoprover(5)
